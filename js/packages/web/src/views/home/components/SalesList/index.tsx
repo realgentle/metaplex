@@ -33,7 +33,7 @@ export const SalesListView = () => {
         src=""
         headingText="The amazing world of ACKCS."
         subHeadingText="Buy exclusive ACKCS NFTs."
-        actionComponent=""
+        actionComponent={</>}
         useBannerBg
       />
       <Layout>

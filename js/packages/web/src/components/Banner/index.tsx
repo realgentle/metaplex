@@ -38,7 +38,6 @@ export const Banner = (props: {
         <div className="banner-content">
           <div id={'main-heading'}>{props.headingText}</div>
           <div id={'sub-heading'}>{props.subHeadingText}</div>
-          {props.actionComponent}
         </div>
       </div>
       <div
@@ -50,14 +49,9 @@ export const Banner = (props: {
           <div id={'message-container'}>
             <div id={'main-heading'}>{props.headingText}</div>
             <div id={'sub-heading'}>{props.subHeadingText}</div>
-            {props.actionComponent}
           </div>
           {props.children}
-          <div className="powered-by">
-            <span>
-              POWERED BY <b>METAPLEX</b>
-            </span>
-          </div>
+
         </div>
       </div>
     </>
